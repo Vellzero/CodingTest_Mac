@@ -1,6 +1,7 @@
+package BJ_1;
 import java.util.Scanner;
 
-public class Main_10869 {
+public class Main_2588 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -8,11 +9,10 @@ public class Main_10869 {
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 
-		System.out.println(A+B);
-		System.out.println(A-B);
+		System.out.println(A*(B%10));
+		System.out.println(A*((B/10)%10));
+		System.out.println(A*(B/100));
 		System.out.println(A*B);
-		System.out.println(A/B);
-		System.out.println(A%B);
 		sc.close();
 	}
 }

@@ -1,3 +1,4 @@
+package BJ_1;
 import java.util.Scanner;
 
 public class Main_1008 {
