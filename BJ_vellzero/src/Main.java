@@ -12,6 +12,6 @@ public class Main {
 		System.out.println(A*((B/10)%10));
 		System.out.println(A*(B/100));
 		System.out.println(A*B);
-		sc.close();
+		sc.close(); 
 	}
 }
