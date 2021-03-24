@@ -6,23 +6,13 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		int A = sc.nextInt();
-		int B = A;
-		int n =0;
+		int B = sc.nextInt();
+		int C = sc.nextInt();
 		
-		while(true) {
+		long D = A*B*C;
 		
-			
-			A = (((A%10)*10)+(((A/10)+(A%10))%10));
-			
-			n++;
-			
-			if(A == B) {
-				break;
-			}
-			
-			
-		}
-		System.out.println(n);
+		
+		
 		sc.close();
 	}
 }
