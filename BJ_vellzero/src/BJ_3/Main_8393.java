@@ -1,19 +1,21 @@
+package BJ_3;
 import java.util.Scanner;
 
-public class Main {
+public class Main_8393 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		int A = sc.nextInt();
-		int B = sc.nextInt();
 		
-		for(int i=0; i<A; i++) {
-			int C = sc.nextInt();
-			if(C < B) {
-				System.out.print(C +" ");
-			}
+		int B = 0;
+		for(int i=1; i<=A; i++) {
+			B = B+i;
+			
 		}
+		System.out.println(B);
 		sc.close(); 
+		
+		  
 	}
 }
