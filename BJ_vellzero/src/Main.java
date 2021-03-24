@@ -5,19 +5,13 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		
+		
 		int A = sc.nextInt();
-		int B = sc.nextInt();
-		int C = sc.nextInt();
+		int [] num = new int [A];
+
 		
-		long D = A*B*C;
-		
-		int [] num = new int [9];
-		
-		
-		for(int i=0;i<num.length;i++) {
-			System.out.println(num[i]);
-		}
-		
+		System.out.println();
 		sc.close();
 	}
 }
