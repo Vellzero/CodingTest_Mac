@@ -11,7 +11,12 @@ public class Main {
 		
 		long D = A*B*C;
 		
+		int [] num = new int [9];
 		
+		
+		for(int i=0;i<num.length;i++) {
+			System.out.println(num[i]);
+		}
 		
 		sc.close();
 	}
