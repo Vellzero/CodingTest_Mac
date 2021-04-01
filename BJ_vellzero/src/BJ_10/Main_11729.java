@@ -1,6 +1,7 @@
+package BJ_10;
 import java.util.Scanner;
  
-public class Main {
+public class Main_11729 {
  
 	public static StringBuilder sb = new StringBuilder();
  
