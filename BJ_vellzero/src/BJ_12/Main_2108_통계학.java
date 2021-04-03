@@ -1,6 +1,7 @@
+package BJ_12;
 import java.util.Scanner;
  
-public class Main {
+public class Main_2108_통계학 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
