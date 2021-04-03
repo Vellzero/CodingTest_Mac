@@ -1,8 +1,9 @@
+package BJ_12;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Comparator;
  
-public class Main {
+public class Main_10814_나이순정렬_좌표정렬하기랑비슷_comparator사용 {
 	public static void main(String[] args) {		
  
 		Scanner in = new Scanner(System.in);
