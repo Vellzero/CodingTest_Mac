@@ -1,7 +1,8 @@
+package BJ_12;
 import java.util.Scanner;
 import java.util.Arrays;
  
-public class Main {
+public class Main_11651_좌표정렬하기_위랑비슷못품 {
 	public static void main(String[] args) {
  
 		Scanner sc = new Scanner(System.in);
