@@ -1,8 +1,9 @@
+package BJ_16;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Comparator;
  
-public class Main {
+public class Main_1931_회의실배정_풀만한데구현이안됨 {
  
 	public static void main(String[] args) {
  
