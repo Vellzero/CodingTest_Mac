@@ -1,6 +1,7 @@
+package BJ_17;
 import java.util.Scanner;
  
-public class Main {
+public class Main_1934_최소공배수 {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
