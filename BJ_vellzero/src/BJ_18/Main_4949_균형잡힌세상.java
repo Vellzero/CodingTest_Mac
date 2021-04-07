@@ -1,7 +1,8 @@
+package BJ_18;
 import java.util.Scanner;
 import java.util.Stack;
  
-public class Main {
+public class Main_4949_균형잡힌세상 {
  
 	public static void main(String[] args) {
  
