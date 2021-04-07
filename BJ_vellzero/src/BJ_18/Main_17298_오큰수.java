@@ -1,7 +1,8 @@
+package BJ_18;
 import java.util.Scanner;
 import java.util.Stack;
  
-public class Main {
+public class Main_17298_오큰수 {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
