@@ -1,7 +1,8 @@
+package BJ_19_큐덱;
 import java.util.Scanner;
 import java.util.LinkedList;
  
-public class Main {
+public class Main_1966_프린터큐_어려움 {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
