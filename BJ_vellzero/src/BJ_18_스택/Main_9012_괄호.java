@@ -1,8 +1,8 @@
-package BJ_18;
+package BJ_18_스택;
 import java.util.Scanner;
 import java.util.Stack;
  
-public class Main_4949_균형잡힌세상 {
+public class Main_9012_괄호 {
  
 	public static void main(String[] args) {
  

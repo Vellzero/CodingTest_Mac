@@ -1,4 +1,4 @@
-package BJ_18;
+package BJ_18_스택;
 import java.util.Scanner;
 public class Main_10828_스택 {
  

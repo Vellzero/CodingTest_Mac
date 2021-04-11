@@ -1,4 +1,4 @@
-package BJ_19;
+package BJ_19_큐덱;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
