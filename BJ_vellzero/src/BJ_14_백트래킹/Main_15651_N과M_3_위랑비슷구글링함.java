@@ -1,4 +1,4 @@
-package BJ_14;
+package BJ_14_백트래킹;
 import java.util.Scanner;
  
 public class Main_15651_N과M_3_위랑비슷구글링함 {

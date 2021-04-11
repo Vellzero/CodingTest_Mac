@@ -1,4 +1,4 @@
-package BJ_14;
+package BJ_14_백트래킹;
 import java.util.Scanner;
  
 public class Main_9663_nQueen_어려움_못품 {

@@ -1,6 +1,7 @@
+package BJ_14_백트래킹;
 import java.util.Scanner;
  
-public class Main {
+public class Main_2580_스도쿠_구글링함 {
  
 	public static int[][] arr = new int[9][9];
  
