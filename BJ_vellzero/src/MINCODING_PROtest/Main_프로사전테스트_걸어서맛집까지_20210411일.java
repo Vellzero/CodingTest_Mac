@@ -1,7 +1,8 @@
+package MINCODING_PROtest;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main_프로사전테스트_걸어서맛집까지_20210411일 {
  
 	public static void main(String[] args) {
  
