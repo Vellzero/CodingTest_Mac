@@ -1,7 +1,8 @@
+package BJ_16_그리디알고리즘;
 import java.util.Arrays;
 import java.util.Scanner;
  
-public class Main {
+public class Main_11399_ATM_완료 {
  
 	public static void main(String[] args) {
  

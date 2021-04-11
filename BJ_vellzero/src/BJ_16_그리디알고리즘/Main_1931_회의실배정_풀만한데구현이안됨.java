@@ -1,4 +1,4 @@
-package BJ_16;
+package BJ_16_그리디알고리즘;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Comparator;
