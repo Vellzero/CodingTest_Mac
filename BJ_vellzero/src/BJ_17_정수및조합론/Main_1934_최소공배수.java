@@ -1,4 +1,4 @@
-package BJ_17;
+package BJ_17_정수및조합론;
 import java.util.Scanner;
  
 public class Main_1934_최소공배수 {

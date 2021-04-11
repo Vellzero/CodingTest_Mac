@@ -1,4 +1,4 @@
-package BJ_17;
+package BJ_17_정수및조합론;
 import java.util.Scanner;
  
 public class Main_2609_최대공약수최소공배수 {

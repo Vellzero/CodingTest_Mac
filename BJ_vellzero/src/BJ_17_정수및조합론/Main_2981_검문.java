@@ -1,4 +1,4 @@
-package BJ_17;
+package BJ_17_정수및조합론;
 import java.util.Arrays;
 import java.util.Scanner;
  
