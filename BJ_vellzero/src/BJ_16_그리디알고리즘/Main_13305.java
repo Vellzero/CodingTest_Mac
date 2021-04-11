@@ -1,6 +1,7 @@
+package BJ_16_그리디알고리즘;
 import java.util.Scanner;
  
-public class Main {
+public class Main_13305 {
  
 	public static void main(String[] args) {
  
