@@ -1,6 +1,7 @@
+package BJ_24_BFSDFS;
 import java.util.*;
 
-public class Main {
+public class Main_2606_바이러스 {
 	static int node[][]; // 그래프 배열
 	static int check[]; // 방문 배열
 	static void bfs(int start) { // BFS 메소드
