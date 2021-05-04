@@ -2,29 +2,15 @@ package Programmers_level1;
 import java.util.Arrays;
 class 완주하지못한선수 {
     public String solution(String[] participant, String[] completion) {
-        String answer = "";
-        String temp = "";
         
         Arrays.sort(participant);
         Arrays.sort(completion);
-        
-        int i = 0;
-        
-        while(i < completion.length){
-            if(!completion[i].equals(participant[i])){
-                temp = participant[i];
-                break;
-            }else{
-                i++;
-            }
+        int i;
+        for(i=0;i<completion.length;i++) {
+        	if(!participant[i].equals(completion[i])) {
+        		return participant[i];
+        	}
         }
-        
-        if(!temp.equals("")){
-            answer = temp;
-        }else{
-            answer = participant[participant.length-1];
-        }
-        
-        return answer;
+        return participant[i];
     }
 }
