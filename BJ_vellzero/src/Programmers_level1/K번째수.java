@@ -1,7 +1,8 @@
+package Programmers_level1;
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Solution {
+class K번째수 {
 	
 	public static void main(String[] args) {
 		
