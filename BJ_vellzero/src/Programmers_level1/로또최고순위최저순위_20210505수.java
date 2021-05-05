@@ -1,6 +1,7 @@
+package Programmers_level1;
 import java.util.Arrays;
 
-class Solution {
+class 로또최고순위최저순위_20210505수 {
 	public static void main (String[] args) {
 		int [] lottos = {44, 1, 0, 0, 31, 25};
 		
