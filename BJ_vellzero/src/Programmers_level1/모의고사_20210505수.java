@@ -1,5 +1,6 @@
+package Programmers_level1;
 import java.util.ArrayList;
-class Solution {
+class 모의고사_20210505수 {
     public int[] solution(int[] answers) {
         int[] answer = {};
         int[] person1 = {1,2,3,4,5}; //이만큼씩 반복
