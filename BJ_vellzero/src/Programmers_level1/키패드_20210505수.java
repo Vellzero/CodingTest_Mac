@@ -1,4 +1,5 @@
-class Solution {
+package Programmers_level1;
+class 키패드_20210505수 {
 	public static String solution(int[] numbers, String hand) {
 		StringBuilder sb = new StringBuilder();
 		int leftIndex = 10;	 // '*' => 10으로 치환
