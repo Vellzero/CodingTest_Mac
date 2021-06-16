@@ -1,6 +1,7 @@
+package BJ_1차원배열_202106;
 import java.util.*;
 
-public class Main {
+public class Main_10818_최대최소 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);	
 		
