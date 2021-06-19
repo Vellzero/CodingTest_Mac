@@ -1,7 +1,7 @@
 package no2_BJ_재귀_202106;
 import java.util.Scanner;
  
-public class Main {
+public class Main_10872_팩토리얼 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		 
