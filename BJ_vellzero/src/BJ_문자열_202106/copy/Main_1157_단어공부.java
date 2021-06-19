@@ -1,6 +1,7 @@
+package BJ_문자열_202106.copy;
 import java.util.Scanner;
  
-public class Main {
+public class Main_1157_단어공부 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		 
