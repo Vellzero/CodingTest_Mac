@@ -1,4 +1,4 @@
-package BJ_1차원배열_202106;
+package no2_BJ_1차원배열_202106;
 import java.util.*;
 
 public class Main_10818_최대최소 {
