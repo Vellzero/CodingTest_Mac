@@ -1,7 +1,8 @@
+package no2_BJ_그리디알고리즘_202106;
 import java.util.Scanner;
 import java.util.StringTokenizer;
  
-public class Main {
+public class Main_1541_잃어버린괄호 {
  
 	public static void main(String[] args) {
  
