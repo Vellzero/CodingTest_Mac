@@ -5,19 +5,20 @@ public class Main_10872_팩토리얼 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		 
-		int A = sc.nextInt();
+		int a = sc.nextInt();
 		
-		factorial(A);
+		factorial(a);
 		sc.close();
 	}
-	
 	public static void factorial(int n) {
-		int sum = 1;
-		for(int i=1;i<n;i++) {
-			sum = sum * i;
+		int a=1;
+		for ( int i = 1; i<=n;i++) {
+			
+			a = a * i;
 		}
- 
-		System.out.print(sum);
+		
+		System.out.println(a);
+		
 	}
  
 }
