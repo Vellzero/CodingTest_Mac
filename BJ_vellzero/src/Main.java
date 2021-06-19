@@ -5,28 +5,17 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int a = sc.nextInt(); 
+		int A = sc.nextInt(); 
+		int B = sc.nextInt(); 
 		
-		int [][] arr = new int [a][2];
-		
-		
-		for (int i=0; i<a;i++) {
-			arr[i][0] = sc.nextInt();
-			arr[i][1] = sc.nextInt();
-		}
-		
-		
-		for(int i=0; i<a;i++) {
-			int rank = 1;
-			for(int j = 0; j < a; j++) {
-				if(i == j) continue;
-				if (arr[i][0] < arr[j][0] && arr[i][1] < arr[j][1]) {
-					rank++;
-				}
+		for ( int i= 1 ; i<A; i++){
+			System.out.print(A);
+			for(int j=1; j<B; j++) {
+				System.out.print(B);
 			}
- 
-			System.out.print(rank + " ");
 		}
+		
+		System.out.println();
 		sc.close();
 		
 	}
