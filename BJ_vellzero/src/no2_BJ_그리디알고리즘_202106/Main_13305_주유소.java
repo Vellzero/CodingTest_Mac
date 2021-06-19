@@ -1,6 +1,7 @@
+package no2_BJ_그리디알고리즘_202106;
 import java.util.Scanner;
  
-public class Main {
+public class Main_13305_주유소 {
  
 	public static void main(String[] args) {
  
