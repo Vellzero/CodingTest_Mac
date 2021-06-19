@@ -1,4 +1,4 @@
-package no2_BJ_문자열_202106.copy;
+package no2_BJ_문자열_202106;
 import java.util.Scanner;
 
 public class Main_11654_아스키코드 {

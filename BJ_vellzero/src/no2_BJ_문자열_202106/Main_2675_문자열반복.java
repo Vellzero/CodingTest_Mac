@@ -1,4 +1,4 @@
-package no2_BJ_문자열_202106.copy;
+package no2_BJ_문자열_202106;
 import java.util.Scanner;
 
 public class Main_2675_문자열반복 {
