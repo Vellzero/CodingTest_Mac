@@ -1,6 +1,7 @@
+package no2_BJ_브루트포스_202106;
 import java.util.Scanner;
 
-public class Main {
+public class Main_7568_덩치 {
  
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
