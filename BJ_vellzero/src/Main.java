@@ -10,7 +10,7 @@ public class Main {
 		long [] dist = new long[A-1];
 		long [] price = new long[A];
 		
-		long sum =0;
+		long sum =0 ;
 		
 		for(int i=0;i<A-1;i++) {
 			dist[i]= sc.nextInt();
