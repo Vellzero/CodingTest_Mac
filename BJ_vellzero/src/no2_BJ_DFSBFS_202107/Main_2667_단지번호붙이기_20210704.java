@@ -1,9 +1,10 @@
+package no2_BJ_DFSBFS_202107;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
  
  
-public class Main {
+public class Main_2667_단지번호붙이기_20210704 {
     static int[][]map;
     static int N,cnt;
     static int[][]visited;
