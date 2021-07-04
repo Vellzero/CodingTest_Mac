@@ -1,7 +1,8 @@
+package no2_Prog_lv2_202107;
 
 import java.util.PriorityQueue;
 
-class Solution {
+class Solution_더맵게lv2_20210704 {
 	public static void main (String[] args) {
 		int K = 7;
 		
