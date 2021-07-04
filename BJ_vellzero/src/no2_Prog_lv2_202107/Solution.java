@@ -1,3 +1,4 @@
+package no2_Prog_lv2_202107;
 
 class Solution {
 	public static void main (String[] args) {
@@ -9,7 +10,7 @@ class Solution {
 	}
     public static int[] solution(int N, int[] stages) {
         int[] answer = {};
-        int a =0;
+        
         
         
         return answer;
