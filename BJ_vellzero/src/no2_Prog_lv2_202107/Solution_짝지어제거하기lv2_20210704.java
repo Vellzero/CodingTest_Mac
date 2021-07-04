@@ -1,7 +1,8 @@
+package no2_Prog_lv2_202107;
 
 import java.util.Stack;
 
-class Solution {
+class Solution_짝지어제거하기lv2_20210704 {
 	public static void main (String[] args) {
 	
 		String s = "baabaa";
