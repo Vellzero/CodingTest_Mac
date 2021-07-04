@@ -1,7 +1,8 @@
-public class Solution {
+package no2_Prog_lv2_202107;
+public class Solution_멀쩡한사각형lv2_유클리드호제법_20210704 {
 	public static void main(String[] args) {
-		int w = 5;
-		int h = 9;
+		int w = 8;
+		int h = 12;
 		long a = solution(w, h);
 		System.out.println(a);
 	}
@@ -20,8 +21,6 @@ public class Solution {
 			value = max % min;
 			max = min;
 			min = value;
-			System.out.println(max);
-			System.out.println(value);
 		}
 		answer = (long)w * (long)h - ((long)w + (long)h - max);
 		return answer;
