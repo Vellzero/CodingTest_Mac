@@ -1,7 +1,8 @@
+package no2_BJ_DFSBFS_202107;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Main_1260_DFS와BFS_20210704 {
   //함수에서 사용할 변수들
   static int[][] check; //간선 연결상태
   static boolean[] checked; //확인 여부
