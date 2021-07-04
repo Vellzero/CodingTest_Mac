@@ -1,6 +1,7 @@
+package no2_Prog_lv2_202107;
 
 
-class Solution {
+class Solution_124나라의숫자_20210704 {
 	public static void main (String[] args) {
 	
 		int n = 11;
