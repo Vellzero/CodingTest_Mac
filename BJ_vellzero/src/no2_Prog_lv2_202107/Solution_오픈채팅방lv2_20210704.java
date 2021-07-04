@@ -1,9 +1,10 @@
+package no2_Prog_lv2_202107;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-class Solution {
+class Solution_오픈채팅방lv2_20210704 {
 	public static void main (String[] args) {
 	
 		String [] record = {"Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
