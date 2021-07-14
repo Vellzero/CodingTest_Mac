@@ -1,9 +1,10 @@
+package no2_Prog_lv2_202107;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
 
-class Solution {
+class Solution_기능개발lv2_20210714 {
 	
 	public static void main(String[] args) {
 		
