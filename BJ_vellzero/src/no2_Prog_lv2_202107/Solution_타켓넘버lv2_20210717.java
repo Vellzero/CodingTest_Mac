@@ -1,5 +1,6 @@
+package no2_Prog_lv2_202107;
 
-class Solution {
+class Solution_타켓넘버lv2_20210717 {
 	
 	public static void main(String[] args) {
 		
