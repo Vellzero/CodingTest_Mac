@@ -1,7 +1,8 @@
+package no2_Prog_lv2_202107;
 import java.util.Arrays;
 import java.util.HashSet;
 
-class Solution {
+class Solution_튜플lv2_20210717 {
 	
 	public static void main(String[] args) {
 		
