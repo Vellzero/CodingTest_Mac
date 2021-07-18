@@ -1,7 +1,7 @@
+package no2_BJ_DFSBFS_202107;
+import java.util.Scanner;
 
-import java.util.*;
-
-public class Main {
+public class Main_1012_유기농배추_20210718 {
 	static int M; //배추밭의 가로 길이.
 	static int N; //배추밭의 세로 길이.
 	static int K; //배추가 심어져 있는 위치의 갯수.
@@ -56,7 +56,7 @@ public class Main {
     		int nr = r + dr[i];
     		int nc = c + dc[i];
     		
-    		if(nr>=0 && nc>=0 && nr<M && nc<N) {
+    		if(nr>=0 && nc >=0 && nr<M && nc<N) {
     			//배추가 있고 방문하지 않았으면 dfs 탐색
     			if(map[nr][nc] ==1 && !visit[nr][nc]) {
     				dfs(nr,nc);
