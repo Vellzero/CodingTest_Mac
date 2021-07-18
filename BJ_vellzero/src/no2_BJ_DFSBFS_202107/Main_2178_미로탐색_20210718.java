@@ -1,9 +1,10 @@
+package no2_BJ_DFSBFS_202107;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_2178_미로탐색_20210718 {
 	static int N; //세로.
 	static int M; //가로.
 	
