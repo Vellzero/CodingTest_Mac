@@ -1,7 +1,8 @@
+package no3_BJ_1차원배열_202107;
 import java.util.Arrays;
 import java.util.Scanner;
  
-public class Main {
+public class Main_10818_최대최소 {
 	public static void main(String[] args) {
     
 		Scanner in = new Scanner(System.in);
