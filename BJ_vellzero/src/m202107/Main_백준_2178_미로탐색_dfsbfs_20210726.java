@@ -1,8 +1,9 @@
+package m202107;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_2178_미로탐색_dfsbfs_20210726 {
 	public static int A;
 	public static int B;
 	public static int map [][];
