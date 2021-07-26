@@ -1,8 +1,9 @@
+package m202107;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_1260_DFSBFS_20210726 {
 	
 	public static int [][] check;
 	public static boolean[] checked;
