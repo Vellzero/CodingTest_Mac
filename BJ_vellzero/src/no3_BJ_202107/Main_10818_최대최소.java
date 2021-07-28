@@ -1,4 +1,4 @@
-package no3_BJ_1차원배열_202107;
+package no3_BJ_202107;
 import java.util.Arrays;
 import java.util.Scanner;
  
