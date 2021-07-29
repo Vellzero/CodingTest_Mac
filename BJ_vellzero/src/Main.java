@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 public class Main {
-	////
+	//////
   //함수에서 사용할 변수들
   static int[][] check; //간선 연결상태
   static boolean[] checked; //확인 여부
