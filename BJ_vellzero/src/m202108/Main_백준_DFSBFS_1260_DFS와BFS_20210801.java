@@ -1,8 +1,9 @@
+package m202108;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_DFSBFS_1260_DFS와BFS_20210801 {
 	//함수에서 사용할 변수들
 	  public static int[][] check; //간선 연결상태
 	  public static boolean[] checked; //확인 여부
