@@ -1,6 +1,7 @@
+package m202108;
 import java.util.Scanner;
  
-public class Main {
+public class Main_백준_그리디_13305_주유소_20210801 {
  
 	public static void main(String[] args) {
  
