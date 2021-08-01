@@ -1,8 +1,9 @@
+package m202108;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_DFSBFS_2606_바이러스_20210801 {
 	//함수에서 사용할 변수들
 	public static int node[][]; // 그래프 배열 
 	public static int check[];  // 방문 배열 
