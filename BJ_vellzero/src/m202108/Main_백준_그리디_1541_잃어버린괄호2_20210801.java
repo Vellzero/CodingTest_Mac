@@ -1,7 +1,8 @@
+package m202108;
 import java.util.Arrays;
 import java.util.Scanner;
  
-public class Main2 {
+public class Main_백준_그리디_1541_잃어버린괄호2_20210801 {
  
 	public static void main(String[] args) {
  

@@ -1,8 +1,9 @@
+package m202108;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main_백준_그리디_1541_잃어버린괄호_20210801 {
  
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
