@@ -1,6 +1,7 @@
+package m202108;
 import java.util.Scanner;
  
-public class Main {
+public class Main_백준_백트래킹_15649_N과M_20210801 {
  
 	public static int[] arr;
 	public static boolean[] visit;
