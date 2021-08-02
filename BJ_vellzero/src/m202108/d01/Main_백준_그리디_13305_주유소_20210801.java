@@ -1,4 +1,4 @@
-package m202108;
+package m202108.d01;
 import java.util.Scanner;
  
 public class Main_백준_그리디_13305_주유소_20210801 {

@@ -1,8 +1,8 @@
-package m202108;
+package m202108.d01;
 import java.util.Arrays;
 import java.util.Scanner;
  
-public class Main_백준_백트래킹_15651_N과M3_20210801 {
+public class Main_백준_백트래킹_15650_N과M2_20210801 {
  
 	public static int[] arr;
 	public static int N,M;
@@ -16,11 +16,11 @@ public class Main_백준_백트래킹_15651_N과M3_20210801 {
 		
 		arr = new int[M];
 		
-		dfs(0);
+		dfs(1,0);
 		sc.close();
 	}
 	
-	public static void dfs(int depth) {
+	public static void dfs(int A, int depth) {
 		
 		if(depth == M) {
 			for(int val : arr) {
@@ -30,9 +30,10 @@ public class Main_백준_백트래킹_15651_N과M3_20210801 {
 			return;
 		}
 		
-		for(int i =1; i<=N; i++) {
+		for(int i =A; i<=N; i++) {
 			arr[depth] = i;
-			dfs(depth +1);
+			
+			dfs(i+1 , depth +1);
 			
  		}
 			

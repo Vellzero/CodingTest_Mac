@@ -1,63 +1,66 @@
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
-    private static int dx[] = {0,0,1,-1};
-    private static int dy[] = {1,-1,0,0};
-    private static int[] aparts = new int[25*25];
-    private static int n;
-    private static int apartNum = 0; //아파트 단지 번호의 수
-    private static boolean[][] visited = new boolean[25][25]; //방문여부
-    private static int[][] map = new int[25][25]; //지도
-
+	static int M; //배추밭의 가로 길이.
+	static int N; //배추밭의 세로 길이.
+	static int K; //배추가 심어져 있는 위치의 갯수.
+	
+	static int[] dr = {-1,1,0,0};   //상하좌우. 
+	static int[] dc = {0,0,-1,1};   //상하좌우.
+	
+	static int [][] map; //배추밭.
+	static boolean[][] visit; //방문 체크.
+	
+	
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-
-        map = new int[n][n];
-        visited = new boolean[n][n];
-
-        //전체 사각형 입력 받기
-        for(int i=0; i<n; i++){
-            String input = sc.next();
-            for(int j=0; j<n; j++){
-                map[i][j] = input.charAt(j)-'0';
-            }
-        }
-
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
-                if(map[i][j] == 1 && !visited[i][j]){
-                    apartNum++;
-                    dfs(i,j);
-                }
-            }
-        }
-
-        Arrays.sort(aparts);
-        System.out.println(apartNum);
-
-        for(int i=0; i<aparts.length; i++){
-            if(aparts[i] == 0){
-            }else{               
-                System.out.println(aparts[i]);
-            }
-        }
+    	
+    	Scanner sc = new Scanner(System.in);
+    	int T = sc.nextInt(); //테스트케이스 갯수.
+    	
+    	
+    	for(int tc=1; tc<=T;tc++) {
+    		M = sc.nextInt();
+    		N = sc.nextInt();
+    		K = sc.nextInt();
+    		
+    		map = new int[M][N];
+    		visit = new boolean[M][N];
+    		
+    		//배추밭에 배추가 심어져 있는곳 입
+    		for(int i=0;i<K;i++) {
+    			map[sc.nextInt()][sc.nextInt()] = 1; 
+    		}
+    		
+    		int count=0; //구역 수
+    		
+    		//배추가 있으면 dfs 탐색 시작하고, 구역 수 증가
+    		for(int i=0;i<M;i++) {
+    			for(int j=0;j<N;j++) {
+    				//배추가 있으면서 방문하지 않았으면 dfs 탐색하고 구역 수 1증가
+    				if(map[i][j]==1 && !visit[i][j]) {
+    					dfs(i,j);
+    					count ++;
+    				}
+    			}
+    		}
+    		System.out.println(count);
+    	}
+    	
     }
-
-    private static void dfs(int x, int y) {
-        visited[x][y] = true;
-        aparts[apartNum]++;
-
-        for(int i=0; i<4; i++){
-            int nx = x + dx[i];
-            int ny = y + dy[i];
-
-            if(nx >=0 && ny >=0 && nx < n && ny < n){
-                if(map[nx][ny] == 1 && !visited[nx][ny]){
-                    dfs(nx,ny);
-                }
-            }
-        }
+    public static void dfs(int r,int c) {
+    	visit [r][c] =true;
+    	
+    	//4방면 탐색.
+    	for(int i=0; i<4; i++) {
+    		int nr = r + dr[i];
+    		int nc = c + dc[i];
+    		
+    		if(nr>=0 && nc>=0 && nr<M && nc<N) {
+    			//배추가 있고 방문하지 않았으면 dfs 탐색
+    			if(map[nr][nc] ==1 && !visit[nr][nc]) {
+    				dfs(nr,nc);
+    			}
+    		}
+    	}
     }
 }

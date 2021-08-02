@@ -1,4 +1,4 @@
-package m202108;
+package m202108.d01;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;

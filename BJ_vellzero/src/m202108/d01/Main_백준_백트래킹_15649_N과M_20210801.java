@@ -1,4 +1,4 @@
-package m202108;
+package m202108.d01;
 import java.util.Scanner;
  
 public class Main_백준_백트래킹_15649_N과M_20210801 {
