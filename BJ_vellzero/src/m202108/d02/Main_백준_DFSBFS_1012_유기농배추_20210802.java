@@ -1,6 +1,7 @@
+package m202108.d02;
 import java.util.*;
 
-public class Main {
+public class Main_백준_DFSBFS_1012_유기농배추_20210802 {
 	static int M; //배추밭의 가로 길이.
 	static int N; //배추밭의 세로 길이.
 	static int K; //배추가 심어져 있는 위치의 갯수.
@@ -17,7 +18,7 @@ public class Main {
     	Scanner sc = new Scanner(System.in);
     	int T = sc.nextInt(); //테스트케이스 갯수.
     	
-    	//
+    	
     	for(int tc=1; tc<=T;tc++) {
     		M = sc.nextInt();
     		N = sc.nextInt();
