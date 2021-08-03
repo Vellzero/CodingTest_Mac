@@ -32,7 +32,7 @@ public class Main {
     		}
     		
     		int count=0; //구역 수
-    		
+    		//
     		//배추가 있으면 dfs 탐색 시작하고, 구역 수 증가
     		for(int i=0;i<M;i++) {
     			for(int j=0;j<N;j++) {
