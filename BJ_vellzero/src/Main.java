@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
 	static int M; //배추밭의 가로 길이.
@@ -9,7 +9,7 @@ public class Main {
 	static int[] dc = {0,0,-1,1};   //상하좌우.
 	
 	static int [][] map; //배추밭.
-	static boolean[][] visit; //방문 체크.
+	static boolean[][] visit; //방문 체크.//
 	
 	
     public static void main(String[] args) {
