@@ -24,7 +24,7 @@ public class Main {
     		K = sc.nextInt();
     		
     		map = new int[M][N];
-    		visit = new boolean[M][N]; //
+    		visit = new boolean[M][N]; ////
     		
     		//배추밭에 배추가 심어져 있는곳 입
     		for(int i=0;i<K;i++) {
