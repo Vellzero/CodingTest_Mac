@@ -4,7 +4,7 @@ public class Main{
 	static int N; //집의 크기 
 	static int [][] home; //집 
 	static int count; //파이프개수 
-	
+	//
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
