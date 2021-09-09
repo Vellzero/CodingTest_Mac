@@ -1,6 +1,7 @@
+package m202109;
 import java.util.Scanner;
 
-public class Main{
+public class Main_17070_파이프옮기기_삼성A형_20210909{
 	static int N; //집의 크기 
 	static int [][] home; //집 
 	static int count; //파이프개수 
