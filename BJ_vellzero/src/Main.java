@@ -31,7 +31,7 @@ public class Main{
 					count++;
 					return;
 				}
-				
+				//
 				//파이프가 가로일 때
 				if(dir==0) {
 					//가로로 밀 때
