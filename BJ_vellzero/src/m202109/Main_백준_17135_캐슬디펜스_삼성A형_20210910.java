@@ -1,3 +1,4 @@
+package m202109;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -6,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
  
-public class Main {
+public class Main_백준_17135_캐슬디펜스_삼성A형_20210910 {
     static int N, M, D;
     static int[][] map;
     static int[][] copyMap;
