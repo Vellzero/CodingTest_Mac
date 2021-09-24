@@ -1,6 +1,7 @@
+package m202109;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_17406_배열돌리기_삼성A형_20210924 {
     
     static int[][] board;
     static int[][] rotation;
