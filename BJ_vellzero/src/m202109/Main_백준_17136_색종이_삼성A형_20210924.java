@@ -1,10 +1,11 @@
+package m202109;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main_백준_17136_색종이_삼성A형_20210924 {
 	static int[][] map;
 	static int[] paper = {0,5,5,5,5,5};
 	static int ans = Integer.MAX_VALUE;
