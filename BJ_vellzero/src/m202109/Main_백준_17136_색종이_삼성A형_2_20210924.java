@@ -1,6 +1,7 @@
+package m202109;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_17136_색종이_삼성A형_2_20210924{
 	
 	static int[][] map; // 색종이 맵
 	static int[] map_number = { 5,5,5,5,5}; // 색종이 개수 각 5개씩
