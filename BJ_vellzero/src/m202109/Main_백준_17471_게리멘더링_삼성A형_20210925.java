@@ -1,3 +1,4 @@
+package m202109;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -18,7 +19,7 @@ class Position {
 	}
 }
 
-public class Main{
+public class Main_백준_17471_게리멘더링_삼성A형_20210925{
 	
 	static int N;
 	static Position[] positions;
