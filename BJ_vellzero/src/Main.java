@@ -17,7 +17,7 @@ class Position {
 		this.peopleNum = peopleNum;
 	}
 }
-//////
+////////
 public class Main{
 	
 	static int N;
