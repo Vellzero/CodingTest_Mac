@@ -1,8 +1,9 @@
+package m202110;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main{
+public class Main_백준_10872_팩토리얼_재귀_브론즈3_buffred_20211002{
 	
 	
 	public static void main(String[] args) throws IOException {
