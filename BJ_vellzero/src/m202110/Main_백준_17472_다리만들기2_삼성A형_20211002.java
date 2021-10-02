@@ -1,3 +1,4 @@
+package m202110;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -41,7 +42,7 @@ class Path {
     }
 }
  
-public class Main {
+public class Main_백준_17472_다리만들기2_삼성A형_20211002 {
     static int N, M;
     static int[][] map;
     static int[] rangeX = { -1, 0, 1, 0 };
