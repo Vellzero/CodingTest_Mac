@@ -1,6 +1,7 @@
+package m202110;
 import java.util.Scanner;
  
-public class Main {
+public class Main_백준_11729_하노이탑_재귀_실버2_20211003 {
  
 	public static StringBuilder sb = new StringBuilder();
  
