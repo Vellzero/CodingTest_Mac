@@ -1,8 +1,9 @@
+package m202110;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_1260_DFSBFS_DFSBFS_실버2_20211014 {
 	//함수에서 사용할 변수들 
 	static int[][] check; //간선 연결상태
 	static boolean[] checked; //확인 여부
@@ -34,7 +35,7 @@ public class Main {
 		System.out.println();
 		
 		bfs(); //bfs호출
-		 //
+		 
 		 
 	}
 	// 시작점을 변수로 받아 확인, 출력 후 다음 연결점을 찾아 시작점을 변경하여 재호출
