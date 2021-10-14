@@ -1,56 +1,71 @@
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
- 
+
 public class Main {
- 
-	public static int[] arr;
-	public static int N;
-	public static int count = 0;
-// //////////////////////////
+	//함수에서 사용할 변수들 
+	static int[][] check; //간선 연결상태
+	static boolean[] checked; //확인 여부
+	static int n; //정점개수
+	static int m; //간선개수
+	static int start; //시작 정점
+	
 	public static void main(String[] args) {
- 
-		Scanner in = new Scanner(System.in);
-		N = in.nextInt();
-		arr = new int[N];
- 
-		nQueen(0);
-		System.out.println(count);
- 
-	}
- 
-	public static void nQueen(int depth) {
-		// 모든 원소를 다 채운 상태면 count 증가 및 return 
-		if (depth == N) {
-			count++;
-			return;
-		}
- 
-		for (int i = 0; i < N; i++) {
-			arr[depth] = i;
-			// 놓을 수 있는 위치일 경우 재귀호출
-			if (Possibility(depth)) {
-				nQueen(depth + 1);
-			}
-		}
- 
-	}
- 
-	public static boolean Possibility(int col) {
- 
-		for (int i = 0; i < col; i++) {
-			// 해당 열의 행과 i열의 행이 일치할경우 (같은 행에 존재할 경우) 
-			if (arr[col] == arr[i]) {
-				return false;
-			} 
+		Scanner sc = new Scanner(System.in);
+		
+		n = sc.nextInt();
+		m = sc.nextInt();
+		start = sc.nextInt();
+		
+		check = new int[1001][1001]; //좌표를 그대로 받아들이기 위해 +1 선언
+		checked = new boolean[1001]; //초기값 false
+		
+		//간선연결상태 저장
+		for(int i=0; i<m; i++) {
+			int x = sc.nextInt();
+			int y = sc.nextInt();
 			
-			/*
-			 * 대각선상에 놓여있는 경우
-			 * (열의 차와 행의 차가 같을 경우가 대각선에 놓여있는 경우다)
-			 */
-			else if (Math.abs(col - i) == Math.abs(arr[col] - arr[i])) {
-				return false;
-			}
+			check[x][y] = check[y][x] =1;
 		}
 		
-		return true;
+		dfs(start);
+		
+		checked = new boolean[1001]; //확인상태 초기화
+		System.out.println();
+		
+		bfs(); //bfs호출
+		 
+		 
 	}
+	// 시작점을 변수로 받아 확인, 출력 후 다음 연결점을 찾아 시작점을 변경하여 재호출
+	public static void dfs(int i) {
+		checked[i] =true;
+		System.out.print(i + " ");
+		
+		for(int j=1; j<=n; j++) {
+			if(check[i][j] ==1 && checked[j] ==false) {
+				dfs(j);
+			}
+		}
+	}
+	public static void bfs() {
+		Queue<Integer> queue = new LinkedList<Integer>();
+		queue.offer(start); //시작점도 queue에 넣어야함
+		checked[start]=true;
+		System.out.print(start + " ");
+		
+		//Queue가 빌 때까지 반복, 방문 정점은 확인, 출력 후 Queue에 넣어 순서대로 확인
+		while(!queue.isEmpty()) {
+			int temp = queue.poll();
+			
+			for(int j=1; j<=n; j++) {
+				if(check[temp][j] ==1 && checked[j] == false) {
+					queue.offer(j);
+					checked[j] = true;
+					System.out.print(j+ " ");
+				}
+			}
+		}
+	} 
+	
 }
