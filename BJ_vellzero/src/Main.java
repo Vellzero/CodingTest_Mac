@@ -9,7 +9,7 @@ public class Main{
     private static int apartNum = 0; //아파트 단지 번호의 수
     private static boolean[][] visited = new boolean[25][25]; //방문여부
     private static int[][] map = new int[25][25]; //지도
-
+    //
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
