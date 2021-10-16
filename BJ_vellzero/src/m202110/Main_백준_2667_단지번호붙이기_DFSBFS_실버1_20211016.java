@@ -1,7 +1,8 @@
+package m202110;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2667_단지번호붙이기_DFSBFS_실버1_20211016{
 	private static int dx[] = {0,0,1,-1};
     private static int dy[] = {1,-1,0,0};
     private static int[] aparts = new int[25*25];
