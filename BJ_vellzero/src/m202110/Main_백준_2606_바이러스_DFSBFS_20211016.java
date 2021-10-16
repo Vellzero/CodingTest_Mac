@@ -1,6 +1,7 @@
+package m202110;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2606_바이러스_DFSBFS_20211016{
 	
 	static int N; // 컴퓨터의 수  (정점)
 	static int M; // 네트워크 상에 직접연결되어있는 컴퓨터 쌍의 수 (간선)
@@ -26,12 +27,7 @@ public class Main{
 			map[a][b] = map[b][a] =1;
 		}
 		
-		//for(int i=1; i<N+1;i++) {
-		//	for (int j=1; j<N+1;j++) {
-		//		System.out.print(map[i][j]);
-		//	}
-		//	System.out.println();
-		//}
+		
 		System.out.println(dfs(1));
 		sc.close();
 	}
