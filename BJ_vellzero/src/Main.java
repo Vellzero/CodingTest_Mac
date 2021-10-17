@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main{
-	
+	//
 	static int N; //추밭의 가로 길이 
 	static int M; //배추밭의 세로 길이 
 	static int K; //배추가 심어져 있는 위치의 개수 
