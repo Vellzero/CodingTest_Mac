@@ -1,7 +1,7 @@
 package m202110;
 import java.util.Scanner;
 
-public class Main_백준_1012_유기농배추_DFSBFS_실버2_20211016{
+public class Main_백준_1012_유기농배추_DFSBFS_실버2_20211018{
 	
 	static int N; //추밭의 가로 길이 
 	static int M; //배추밭의 세로 길이 
