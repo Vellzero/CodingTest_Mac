@@ -1,8 +1,9 @@
+package m202110;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
  
-public class Main {
+public class Main_백준_2178_미로탐색_DFSBFS_실버1_20211018 {
  
     static int[][] arr;
     static boolean[][] visited;
