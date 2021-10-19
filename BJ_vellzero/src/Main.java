@@ -10,7 +10,7 @@ public class Main {
     static int[] dy = { 0, -1, 0, 1 };
     static int N;
     static int M;
-    ////
+    //////
  
     public static void main(String args[]) throws Exception {
         Scanner sc = new Scanner(System.in);
