@@ -1,3 +1,4 @@
+package m202110;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -5,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
  
-public class Main {
+public class Main_백준_9372_상근이의여행_MST_실버4_20211023 {
     static int N,M,result;
     static boolean visit[];
     static int arr[][];
