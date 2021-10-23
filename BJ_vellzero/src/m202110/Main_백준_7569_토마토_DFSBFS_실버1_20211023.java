@@ -1,3 +1,4 @@
+package m202110;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -14,7 +15,7 @@ class Three {
     }
 }
 
-public class Main {
+public class Main_백준_7569_토마토_DFSBFS_실버1_20211023 {
     static int[] dx = { -1, 0, 1, 0, 0, 0 };
     static int[] dy = { 0, 1, 0, -1, 0, 0 };
     static int[] dz = { 0, 0, 0, 0, -1, 1 };
