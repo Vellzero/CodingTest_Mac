@@ -1,8 +1,9 @@
+package m202110;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_7576_토마토_DFSBFS_실버1_20211023 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] dy = { -1, 1, 0, 0 };
