@@ -1,8 +1,9 @@
+package m202110;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class Main_백준_96663_nQueen_백트래킹_다시풀기_골드5_20211024 {
 	
 	public static int[] arr;
 	public static int N;
