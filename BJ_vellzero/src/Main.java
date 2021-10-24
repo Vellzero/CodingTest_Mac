@@ -1,60 +1,64 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.*;
+
 
 public class Main {
-	
-	public static int[] arr;
-	public static int N;
-	public static int count =0;
-	
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		N = Integer.parseInt(br.readLine());
-		arr = new int[N];
-		
-		nQueen(0);
-		
-		System.out.println(count);
-			
-		
-	}
-	public static void nQueen(int depth) {
-		//모든 원소를 다 채운 상태면 count 증가 및 return
-		if(depth==N) {
-			count++;
-			return;
-		}
-		
-		for(int i=0; i<N; i++) {
-			arr[depth] = i;
-			//놓을 수 있는 위치일 경우 재귀호출
-			if(Possibility(depth)) {
-				nQueen(depth +1);
-			}
-		}
-		
-	}
-	public static boolean Possibility(int col) {
-		
-		for(int i=0; i<col ; i++) {
-			//해당 열의 행과 i열의 행이 일치할 경우(같은 행에 존재할 경우)
-			if(arr[col] == arr[i]) {
-				return false;
-			//대각선상에 놓여있는 경우(열의차와 행의 차가 같은 경우가 대각선에 놓여있는 경우)	
-			}else if(Math.abs(col -i ) == Math.abs(arr[col] - arr[i])) {
-				return false;
-			}
-		}
-		
-	
-		
-		
-		return true;
-	}
+    static int n;
+    static int max = Integer.MIN_VALUE;
+    
+    
+    static ArrayList<Integer>num = new ArrayList<>();
+    static ArrayList<Character> op = new ArrayList<>();
+    
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+         n = Integer.parseInt(br.readLine());
+         
+         String t = br.readLine();
+         for(int i=0; i<n; i++) {
+             if(i%2==0) {
+                 num.add(t.charAt(i)-'0');
+             }
+             else {
+                 op.add(t.charAt(i));
+             }
+         }
+         
+         int start = num.get(0);
+         dfs(0,start);
+         
+         System.out.println(max);
+    }
+    
+    public static void dfs(int now, int sum) {
+        if(now>=op.size()) {
+            max = Math.max(max, sum);
+            return;
+        }
+        
+        // 1. 괄호 안치고 진행하기
+        int one = cal(now, sum, num.get(now+1));
+        dfs(now+1, one);
+        
+        // 2. 괄호 치고 진행하기
+        if(now+1 < op.size()) { // 인덱스 범위 오류를 제거하기 위해
+            int two = cal (now+1, num.get(now+1), num.get(now+2));
+            int result = cal (now, sum, two);
+            dfs(now+2, result);
+        }
+   }
+    public static int cal(int op_idx,int a, int b) {
+        switch(op.get(op_idx)) {
+        case '+':
+            return a+b;
+        case '-':
+            return a-b;
+        case '*':
+            return a*b;
+        }
+        return 1;
+    }
 }
-
-
-
-
