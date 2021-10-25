@@ -38,7 +38,7 @@ public class Main {
             max = Math.max(max, sum);
             return;
         }
-        
+        //잔디
         // 1. 괄호 안치고 진행하기
         int one = cal(now, sum, num.get(now+1));
         dfs(now+1, one);
