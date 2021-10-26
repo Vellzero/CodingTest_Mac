@@ -1,8 +1,9 @@
+package m202110;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Main{
+public class Main_2667_단지번호붙이기_dfsbfs_다시_실버1_20211026{
 	
 	static int N; //지도의 크기 
 	static int count; //단지집의 숫자 
