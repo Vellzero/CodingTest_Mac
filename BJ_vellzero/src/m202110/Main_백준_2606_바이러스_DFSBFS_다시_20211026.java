@@ -1,6 +1,7 @@
+package m202110;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2606_바이러스_DFSBFS_다시_20211026{
 	
 	static int N;
 	static int M;
