@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Main{
-	//잔디  
+	//잔디  //
 	static int N; //지도의 크기 
 	static int count; //단지집의 숫자 
 	static int map[][];
