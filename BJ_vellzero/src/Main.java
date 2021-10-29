@@ -13,7 +13,7 @@ public class Main{
 	
 	static int[] dr = {-1,1,0,0}; //상하좌우  
 	static int[] dc = {0,0,-1,1}; //상하좌우 
-	//
+	////
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
