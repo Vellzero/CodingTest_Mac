@@ -18,7 +18,7 @@ public class Main{
 		Scanner sc = new Scanner(System.in);
 		
 		N = sc.nextInt(); // 지도의 크기  
-		//////////
+		////////////
 		//2차원 배열 지도 
 		map = new int[N][N];
 		//방문 체크 
