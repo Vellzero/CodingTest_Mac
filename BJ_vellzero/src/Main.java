@@ -20,7 +20,7 @@ public class Main{
 		N = sc.nextInt(); // 지도의 크기  ////
 		//////////////////////
 		//2차원 배열 지도 //////////////////////	//////
-		map = new int[N][N];//////
+		map = new int[N][N];////////
 		//방문 체크 
 		visit = new boolean[N][N];
 		
