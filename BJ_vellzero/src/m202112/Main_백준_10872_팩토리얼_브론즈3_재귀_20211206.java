@@ -1,6 +1,7 @@
+package m202112;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_10872_팩토리얼_브론즈3_재귀_20211206 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
