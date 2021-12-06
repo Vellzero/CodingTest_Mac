@@ -1,7 +1,8 @@
+package m202112;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_2798_블랙잭_브론즈2_브루트포스_20211206 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
