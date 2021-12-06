@@ -14,7 +14,7 @@ public class Main {
 
 	public static int fibonacci(int B) {
 		
-		if(B <=1 ) {
+		if(B <=1 ) {//
 			return 1;
 		}
 		else {
