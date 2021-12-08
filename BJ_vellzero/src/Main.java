@@ -11,7 +11,7 @@ public class Main {
   
   public static void main(String[] args) throws IOException {
   Scanner sc = new Scanner(System.in);
-  n = sc.nextInt();
+  n = sc.nextInt();//
   m = sc.nextInt();
   start = sc.nextInt();//
   
