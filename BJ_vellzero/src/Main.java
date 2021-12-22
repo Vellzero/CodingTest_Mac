@@ -19,7 +19,7 @@ public class Main {
   checked = new boolean[1001]; //초기값 False
   
   //간선 연결상태 저장//
-  for(int i = 0; i < m; i++) {////
+  for(int i = 0; i < m; i++) {//////
     int x = sc.nextInt();
     int y = sc.nextInt();////
     
