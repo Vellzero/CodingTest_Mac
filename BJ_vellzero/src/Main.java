@@ -25,7 +25,7 @@ public class Main {
     
     check[x][y] = check[y][x] = 1;
   }
-  
+  //
   dfs(start); //dfs호출
   
   checked = new boolean[1001]; //확인상태 초기화
