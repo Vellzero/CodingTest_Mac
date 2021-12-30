@@ -14,7 +14,7 @@ public class Main {
   n = sc.nextInt();//
   m = sc.nextInt();////
   start = sc.nextInt();////
-  ////
+  //////
   check = new int[1001][1001]; //좌표를 그대로 받아들이기 위해 +1해서 선언
   checked = new boolean[1001]; //초기값 False
   
