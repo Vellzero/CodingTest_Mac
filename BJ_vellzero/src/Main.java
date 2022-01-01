@@ -21,7 +21,7 @@ public class Main {
   //간선 연결상태 저장////
   for(int i = 0; i < m; i++) {///////////
     int x = sc.nextInt();/////
-    int y = sc.nextInt();////
+    int y = sc.nextInt();//////
     
     check[x][y] = check[y][x] = 1;
   }
