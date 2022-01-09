@@ -16,7 +16,7 @@ public class Main {
   start = sc.nextInt();////
   //////
   check = new int[1001][1001]; //좌표를 그대로 받아들이기 위해 +1해서 선언
-  checked = new boolean[1001]; //초기값 False
+  checked = new boolean[1001]; //초기값 False//
   //
   //간선 연결상태 저장////
   for(int i = 0; i < m; i++) {///////////////
