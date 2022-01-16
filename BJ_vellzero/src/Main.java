@@ -24,7 +24,7 @@ public class Main {
     int y = sc.nextInt();//////////////
     
     check[x][y] = check[y][x] = 1;
-  }
+  }//
   //
   dfs(start); //dfs호출
   
