@@ -27,7 +27,7 @@ public class Main {
   }//
   //
   dfs(start); //dfs호출
-  
+  //
   checked = new boolean[1001]; //확인상태 초기화
   System.out.println(); //줄바꿈
   
