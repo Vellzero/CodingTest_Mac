@@ -1,6 +1,7 @@
+package m202201;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2606_바이러스_실버3_DFS_20220123{
 	
 	static int[][] check ;
 	static boolean[] checked;
