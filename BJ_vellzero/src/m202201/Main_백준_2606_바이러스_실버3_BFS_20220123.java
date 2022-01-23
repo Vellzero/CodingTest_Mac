@@ -1,8 +1,9 @@
+package m202201;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2606_바이러스_실버3_BFS_20220123{
 	
 	static int[][] check ;
 	static boolean[] checked;
