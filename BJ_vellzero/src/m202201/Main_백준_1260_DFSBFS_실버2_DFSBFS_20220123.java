@@ -1,8 +1,9 @@
+package m202201;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_1260_DFSBFS_실버2_DFSBFS_20220123{
 	//함수에 사용할 변수
 	static int [][] check; //간선 연결상태 
 	static boolean [] checked; //확인 여부 
