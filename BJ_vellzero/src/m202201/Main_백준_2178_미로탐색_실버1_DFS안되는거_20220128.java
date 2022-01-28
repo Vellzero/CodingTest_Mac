@@ -1,6 +1,7 @@
+package m202201;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2178_미로탐색_실버1_DFS안되는거_20220128{
 	
 	static int N;
 	static int M;
