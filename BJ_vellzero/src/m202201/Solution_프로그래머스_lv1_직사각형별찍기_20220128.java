@@ -1,6 +1,7 @@
+package m202201;
 import java.util.Scanner;
 
-class Solution {
+class Solution_프로그래머스_lv1_직사각형별찍기_20220128 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
