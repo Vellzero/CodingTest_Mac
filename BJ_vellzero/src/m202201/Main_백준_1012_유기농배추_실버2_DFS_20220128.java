@@ -1,6 +1,7 @@
+package m202201;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_1012_유기농배추_실버2_DFS_20220128{
 	
 	static int M;
 	static int N;
