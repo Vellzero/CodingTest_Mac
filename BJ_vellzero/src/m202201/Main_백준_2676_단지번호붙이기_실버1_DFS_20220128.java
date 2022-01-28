@@ -1,7 +1,8 @@
+package m202201;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2676_단지번호붙이기_실버1_DFS_20220128{
 	
 	static int [] dx = {0,0,1,-1};
 	static int [] dy = {1,-1,0,0};
