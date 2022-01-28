@@ -1,4 +1,5 @@
-class Solution {
+package m202201;
+class Solution_프로그래머스_lv1_행렬의덧셈_20220128 {
   public int[][] solution(int[][] arr1, int[][] arr2) {
       int[][] answer = new int[arr1.length][arr1[0].length];
 
