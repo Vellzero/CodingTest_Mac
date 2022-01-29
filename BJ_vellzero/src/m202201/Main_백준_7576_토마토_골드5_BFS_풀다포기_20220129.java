@@ -1,10 +1,11 @@
+package m202201;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
 import m202107.Main_백준_2178_미로탐색_dfsbfs_20210726.Dot;
 
-public class Main{
+public class Main_백준_7576_토마토_골드5_BFS_풀다포기_20220129{
 	
 	static int M; //가로 
 	static int N; //세로 
