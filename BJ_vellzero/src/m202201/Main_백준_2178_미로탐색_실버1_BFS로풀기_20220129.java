@@ -1,8 +1,9 @@
+package m202201;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2178_미로탐색_실버1_BFS로풀기_20220129{
 	
 	static int N;
 	static int M;
