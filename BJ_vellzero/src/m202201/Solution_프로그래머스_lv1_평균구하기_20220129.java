@@ -1,4 +1,5 @@
-class Solution {
+package m202201;
+class Solution_프로그래머스_lv1_평균구하기_20220129 {
 	
 	public static void main(String[] args) {
 	
