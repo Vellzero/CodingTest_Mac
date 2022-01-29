@@ -1,7 +1,8 @@
+package m202201;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_16637_괄호추가하기_골드3_문제집삼성A형_20220129{
 	
 	static int N;
 	
