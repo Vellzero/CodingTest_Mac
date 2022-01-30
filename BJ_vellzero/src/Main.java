@@ -53,7 +53,7 @@ public class Main{
 			int two = cal(now+1, num.get(now+1), num.get(now+2)); //two에 여태합계와 num 다다음값을 계산한다.
 			int result = cal(now,sum, two);
 			dfs(now+2, result);
-		}
+		}//
 	}
 	
 	public static int cal(int op_idx, int a, int b) {
