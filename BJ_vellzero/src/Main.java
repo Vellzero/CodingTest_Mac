@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main{
 	
-	static int N;
+	static int N;//
 	
 	static ArrayList<Integer> num;
 	static ArrayList<Character> op;
