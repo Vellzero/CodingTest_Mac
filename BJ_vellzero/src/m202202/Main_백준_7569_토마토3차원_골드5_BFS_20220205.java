@@ -1,13 +1,14 @@
+package m202202;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-class tomato{
+class tomato2{
 	int x;
 	int y;
 	int z;
 	
-	tomato(int z, int y, int x){
+	tomato2(int z, int y, int x){
 		this.z= z;
 		this.y= y;
 		this.x= x;
@@ -15,7 +16,7 @@ class tomato{
 	
 }
 
-public class Main{
+public class Main_백준_7569_토마토3차원_골드5_BFS_20220205{
 	
 	static int M; //가로 
 	static int N; //세로 
@@ -23,7 +24,7 @@ public class Main{
 	
 	static int[][][] board;
 	
-	static Queue<tomato> que;
+	static Queue<tomato2> que;
 	
 	static int[] dx = {-1,0,1,0,0,0};
 	static int[] dy = {0,1,0,-1,0,0};
@@ -37,7 +38,7 @@ public class Main{
 	
 		board = new int[H][N][M];
 		
-		que = new LinkedList<tomato>();
+		que = new LinkedList<tomato2>();
 		
 		for(int i=0; i<H; i++) {
 			for(int j=0; j<N;j++) {
@@ -45,7 +46,7 @@ public class Main{
 					board[i][j][k] = sc.nextInt();
 					
 					if(board[i][j][k]==1) {
-						que.add(new tomato(i,j,k));
+						que.add(new tomato2(i,j,k));
 					}
 				}
 			}
@@ -56,7 +57,7 @@ public class Main{
 	
 	public static int BFS() {
 		while(!que.isEmpty()) {
-			tomato t = que.remove();
+			tomato2 t = que.remove();
 			
 			for(int i=0;i<6;i++) {
 				int nx = t.x + dx[i];
@@ -65,7 +66,7 @@ public class Main{
 				
 				if(nx>=0 && ny>=0 && nz>=0 && ny<N && nx<M && nz<H) {
 					if(board[nz][ny][nx] ==0) {
-						que.add(new tomato(nz,ny,nx));
+						que.add(new tomato2(nz,ny,nx));
 						
 						board[nz][ny][nx] =board[t.z][t.y][t.x] +1;
 					}
