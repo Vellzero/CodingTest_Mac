@@ -1,8 +1,9 @@
+package m202202;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_1697_숨바꼭질_실버1_BFS_20220205{
 	
 	static int N;
 	static int K;
