@@ -1,6 +1,7 @@
+package m202202;
 import java.util.Scanner;
  
-public class Main {
+public class Main_백준_9663_NQueen_골드5_백트래킹_20220205 {
  
 	public static int[] arr;
 	public static int N;
