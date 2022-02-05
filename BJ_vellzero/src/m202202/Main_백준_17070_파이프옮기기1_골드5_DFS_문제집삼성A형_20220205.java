@@ -1,6 +1,7 @@
+package m202202;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_17070_파이프옮기기1_골드5_DFS_문제집삼성A형_20220205{
 	
 	static int N;
 	static int[][] map;
