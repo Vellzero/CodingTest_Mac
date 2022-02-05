@@ -1,3 +1,4 @@
+package m202202;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -12,7 +13,7 @@ class tomato{
 	}
 }
 
-public class Main{
+public class Main_백준_7576_토마토_골드5_BFS_20220205{
 	
 	static int M; //가로 
 	static int N; //세
