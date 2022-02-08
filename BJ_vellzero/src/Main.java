@@ -12,7 +12,7 @@ public class Main{
 		Scanner sc = new Scanner(System.in);
 		
 		N = sc.nextInt();
-		
+		//
 		map = new int[N+1][N+1];
 		
 		for(int i=1; i<=N;i++) {
