@@ -1,6 +1,7 @@
+package m202202;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_11047_동전0_실버3_그리디_20220209{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
