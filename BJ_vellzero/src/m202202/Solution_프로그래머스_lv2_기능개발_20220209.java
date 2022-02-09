@@ -1,6 +1,7 @@
+package m202202;
 import java.util.Arrays;
 
-class Solution {
+class Solution_프로그래머스_lv2_기능개발_20220209 {
 	
 public static void main(String[] args) {
 		
