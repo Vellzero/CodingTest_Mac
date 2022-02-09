@@ -1,4 +1,5 @@
-class Solution {
+package m202202;
+class Solution_프로그래머스_lv2_124나라의숫자_20220209 {
 	
 	public static void main(String[] args) {
 	
