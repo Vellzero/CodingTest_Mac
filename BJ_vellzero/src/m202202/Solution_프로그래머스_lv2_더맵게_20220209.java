@@ -1,6 +1,7 @@
+package m202202;
 import java.util.PriorityQueue;
 
-public class Solution{
+public class Solution_프로그래머스_lv2_더맵게_20220209{
 	
 	public static int solution(int[] scoville, int K) {
 		int answer =0;
