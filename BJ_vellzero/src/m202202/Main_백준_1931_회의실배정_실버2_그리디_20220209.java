@@ -1,8 +1,9 @@
+package m202202;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_1931_회의실배정_실버2_그리디_20220209{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
