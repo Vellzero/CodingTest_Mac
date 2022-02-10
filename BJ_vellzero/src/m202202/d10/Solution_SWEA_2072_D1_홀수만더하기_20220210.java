@@ -1,5 +1,6 @@
+package m202202.d10;
 import java.util.Scanner;
-public class Solution{
+public class Solution_SWEA_2072_D1_홀수만더하기_20220210{
 	
 	public static void main(String[] args) throws Exception {
 		
