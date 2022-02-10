@@ -1,4 +1,4 @@
-package m202202;
+package m202202.d10;
 class Solution_프로그래머스_lv2_BFS_타겟넘버_20220210 {
 	
 	public static void main(String[] args) {

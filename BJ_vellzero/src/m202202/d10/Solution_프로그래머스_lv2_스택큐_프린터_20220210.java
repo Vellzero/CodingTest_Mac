@@ -1,8 +1,9 @@
+package m202202.d10;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Solution {
+class Solution_프로그래머스_lv2_스택큐_프린터_20220210 {
 	
 	public static void main(String[] args) {
 		int [] priorities = {2,1,3,2};
