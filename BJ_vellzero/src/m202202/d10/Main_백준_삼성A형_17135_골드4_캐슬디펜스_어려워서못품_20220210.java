@@ -1,7 +1,8 @@
+package m202202.d10;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_삼성A형_17135_골드4_캐슬디펜스_어려워서못품_20220210{
 	
 	static int n,m,d;
 	
