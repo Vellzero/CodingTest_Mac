@@ -1,34 +1,37 @@
-import java.util.PriorityQueue;
-
-public class Solution{
+class Solution {
 	
-	public static int solution(int[] scoville, int K) {
-		int answer =0;
+	public static void main(String[] args) {
 		
-		PriorityQueue<Integer> PQ = new PriorityQueue<>();
+		int [] numbers = {1,1,1,1,1};
+		int target = 3;
 		
-		for(int i=0; i<scoville.length;i++) {
-			PQ.offer(scoville[i]);
-		}
-		
-		while(PQ.peek() <= K) {
-			if(PQ.size() == 1){
-				return -1;
-			}
-			
-			int a= PQ.poll();
-			int b= PQ.poll();
-			
-			int result = a+ (b *2);
-			
-			PQ.offer(result);
-			answer ++;
-			
-			
-		}
-		
-		
-		return answer;
+		int test = solution(numbers,target);
+		//System.out.println(test);
 		
 	}
+	
+	public static int solution(int[] numbers, int target) {
+        int answer = 0;
+        
+        answer = bfs(numbers, target, numbers[0], 1) + bfs(numbers, target, -numbers[0], 1);
+        
+        return answer;
+    }
+    
+    public static int bfs(int[] numbers, int target, int sum, int i) {
+        
+        if(i == numbers.length) {
+            if(sum == target) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+        
+        int result = 0;
+        result += bfs(numbers, target, sum+numbers[i], i+1);
+        result += bfs(numbers, target, sum-numbers[i], i+1);
+        return result;
+    }
+
 }
