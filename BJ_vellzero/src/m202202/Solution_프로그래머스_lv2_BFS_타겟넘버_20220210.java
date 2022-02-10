@@ -1,4 +1,5 @@
-class Solution {
+package m202202;
+class Solution_프로그래머스_lv2_BFS_타겟넘버_20220210 {
 	
 	public static void main(String[] args) {
 		
@@ -7,7 +8,7 @@ class Solution {
 		
 		int test = solution(numbers,target);
 		//System.out.println(test);
-		//
+		
 	}
 	
 	public static int solution(int[] numbers, int target) {
