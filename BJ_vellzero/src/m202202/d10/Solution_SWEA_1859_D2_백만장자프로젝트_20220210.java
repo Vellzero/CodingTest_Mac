@@ -1,5 +1,6 @@
+package m202202.d10;
 import java.util.Scanner;
-public class Solution{
+public class Solution_SWEA_1859_D2_백만장자프로젝트_20220210{
 	
 	public static void main(String[] args) throws Exception {
 		
