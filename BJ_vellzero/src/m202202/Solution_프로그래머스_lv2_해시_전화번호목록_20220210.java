@@ -1,6 +1,7 @@
+package m202202;
 // 2개 통과 못함 + 왜 시간초과 나지??
 
-class Solution {
+class Solution_프로그래머스_lv2_해시_전화번호목록_20220210 {
 	
 	public static void main(String[] args) {
 		
