@@ -1,6 +1,7 @@
+package m202202.d11;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_삼성A형_17136_골드2_색종이붙이기_20220211{
 	
 	static int [][] map;
 	static int result = Integer.MAX_VALUE;
