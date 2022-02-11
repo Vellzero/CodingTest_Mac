@@ -1,7 +1,8 @@
+package m202202.d11;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Main_숫자야구해보기 {
 	public static void main(String[] args) {
 		
 		int com[] = new int[3]; // 컴퓨터 숫자 
