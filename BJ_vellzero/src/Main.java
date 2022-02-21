@@ -7,7 +7,7 @@ public class Main {
     static int min = Integer.MAX_VALUE;
     static int n, m;
     static boolean[] visited;
-    static int[] result;
+    static int[] result;//
     //////////
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
