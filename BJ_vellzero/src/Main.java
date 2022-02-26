@@ -18,8 +18,8 @@ public class Main{
 		M = sc.nextInt();
 		V = sc.nextInt();
 		
-		map = new int[1001][1001];
-		visited = new boolean[1001];
+		map = new int[N+1][N+1];
+		visited = new boolean[N+1];
 		
 		for(int i=0;i<M;i++) {
 			int A = sc.nextInt();
@@ -29,8 +29,8 @@ public class Main{
 		}
 		
 		
-		for(int i=0;i<N;i++) {
-			for(int j=0;j<N;j++) {
+		for(int i=0;i<N+1;i++) {
+			for(int j=0;j<N+1;j++) {
 				System.out.print(map[i][j]);
 			}
 			System.out.println();
@@ -39,9 +39,9 @@ public class Main{
 		
 		dfs(V);
 		
-		visited = new boolean[1001];
+		visited = new boolean[N+1];
 		System.out.println();
-		bfs();
+		bfs(V);
 	}
 	public static void dfs(int i) {
 	    visited[i] = true;
@@ -54,11 +54,11 @@ public class Main{
 	    }
 	  }
 
-	 public static void bfs() {
+	 public static void bfs(int i) {
 		    Queue<Integer> queue = new LinkedList<Integer>();
-		    queue.offer(V); //시작점도 Queue에 넣어야 함
-		    visited[V] = true; 
-		    System.out.print(V + " ");
+		    queue.offer(i); //시작점도 Queue에 넣어야 함
+		    visited[i] = true; 
+		    System.out.print(i + " ");
 		    
 		    //Queue가 빌 때까지 반복. 방문 정점은 확인, 출력 후 Queue에 넣어 순서대로 확인
 		    while(!queue.isEmpty()) {
