@@ -1,9 +1,10 @@
+package m202202.d27;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2667_실버1_DFSBFS_단지번호붙이기_BFS로풀기_20220227{
 	
 	static int N;
 	
