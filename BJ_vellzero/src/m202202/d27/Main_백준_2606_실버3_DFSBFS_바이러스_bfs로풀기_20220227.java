@@ -1,8 +1,9 @@
+package m202202.d27;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_2606_실버3_DFSBFS_바이러스_bfs로풀기_20220227{
 	
 	static int N;
 	static int M;
