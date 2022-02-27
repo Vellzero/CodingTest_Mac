@@ -1,8 +1,9 @@
+package m202202.d27;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main_백준_1260_실버2_DFSBFS_20220227{
 	
 	static int N;
 	static int M;
