@@ -1,6 +1,7 @@
+package m202203.d01;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_삼성A형_17070_골드5_파이프옮기기1_DP그래프_20220301 {
 	static int N;
 	static int[][] home;
 
