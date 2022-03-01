@@ -1,8 +1,9 @@
+package m202203.d01;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_1012_dfsbfs_실버2_유기농배추_bfs로풀기_20220301 {
 
 	static int T;
 	static int M;
