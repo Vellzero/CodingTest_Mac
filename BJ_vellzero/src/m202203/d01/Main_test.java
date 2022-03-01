@@ -1,9 +1,10 @@
+package m202203.d01;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main{
+public class Main_test{
 	
 	static int N;
 	
@@ -16,7 +17,7 @@ public class Main{
 	
 	static int[] dx = {1,-1,0,0};
 	static int[] dy = {0,0,1,-1};
-	////
+	//
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
