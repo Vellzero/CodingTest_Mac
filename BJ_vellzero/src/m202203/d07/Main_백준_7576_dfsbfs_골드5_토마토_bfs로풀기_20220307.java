@@ -1,3 +1,4 @@
+package m202203.d07;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -12,7 +13,7 @@ class tomato {
 	}
 }
 
-public class Main {
+public class Main_백준_7576_dfsbfs_골드5_토마토_bfs로풀기_20220307 {
 
 	static int M;
 	static int N;
