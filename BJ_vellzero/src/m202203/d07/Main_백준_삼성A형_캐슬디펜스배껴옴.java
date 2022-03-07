@@ -1,3 +1,4 @@
+package m202203.d07;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -6,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main_백준_삼성A형_캐슬디펜스배껴옴 {
 	static int N, M, D;
 	static int[][] map;
 	static int[][] copyMap;
