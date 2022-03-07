@@ -4,7 +4,7 @@ public class Main {
 	static int N;
 	static int[][] home;
 
-	static int count;
+	static int count;//
 
 	public static void main(String[] args) {
 
