@@ -1,6 +1,7 @@
+package m202203.d09;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_14888_백트래킹_실버1_연산자끼워넣기_20220309 {
 	static int MAX = Integer.MIN_VALUE;
 	static int MIN = Integer.MAX_VALUE;
 	static int N;
