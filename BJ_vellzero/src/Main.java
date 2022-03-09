@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 public class Main {
 	static int N, M, D;//
-	static int[][] map;
+	static int[][] map;//
 	static int[][] copyMap;
 	static int ans;
 
