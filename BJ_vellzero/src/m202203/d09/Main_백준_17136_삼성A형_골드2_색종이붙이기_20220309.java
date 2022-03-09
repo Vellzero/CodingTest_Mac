@@ -1,6 +1,7 @@
+package m202203.d09;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_17136_삼성A형_골드2_색종이붙이기_20220309 {
 	static int[][] map = new int[10][10];
 	static int[] paper = { 0, 5, 5, 5, 5, 5 };
 	static int ans = Integer.MAX_VALUE;
