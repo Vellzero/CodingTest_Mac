@@ -1,6 +1,7 @@
+package m202203.d09;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_15649_백트래킹_실버3_N과M1_20220309 {
 	static int N, M;
 
 	static int[] arr;
