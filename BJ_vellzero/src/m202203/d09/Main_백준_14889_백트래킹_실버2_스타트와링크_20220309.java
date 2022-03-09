@@ -1,6 +1,7 @@
+package m202203.d09;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_14889_백트래킹_실버2_스타트와링크_20220309 {
 
 	static int N;
 	static int[][] map;
