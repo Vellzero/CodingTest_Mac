@@ -1,8 +1,9 @@
+package m202203.d11;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_민코딩_adv사전_액체괴물놀이_20220311 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
