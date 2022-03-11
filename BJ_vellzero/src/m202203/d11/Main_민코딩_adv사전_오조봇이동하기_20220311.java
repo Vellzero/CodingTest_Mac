@@ -1,6 +1,7 @@
+package m202203.d11;
 import java.util.Scanner;
 
-public class Main {
+public class Main_민코딩_adv사전_오조봇이동하기_20220311 {
 
 	public static void main(String[] args) {
 
