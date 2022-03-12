@@ -1,7 +1,8 @@
+package m202203.d12;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Main {
+public class Main_백준_10773_stack_실버4_제로_20220312 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
