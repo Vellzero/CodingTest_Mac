@@ -1,8 +1,9 @@
+package m202203.d12;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_2164_큐_실버4_카드2_20220312 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
