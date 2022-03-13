@@ -1,8 +1,9 @@
+package m202203.d13;
 import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_11279_우선순위큐_실버2_최대힙_20220313 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
