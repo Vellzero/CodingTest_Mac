@@ -1,8 +1,9 @@
+package m202203.d13;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_11866_큐_실버4_요세푸스_20220313 {
 
 	public static void main(String[] args) {
 
