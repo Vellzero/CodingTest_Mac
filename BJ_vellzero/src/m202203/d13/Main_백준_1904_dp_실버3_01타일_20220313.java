@@ -1,6 +1,7 @@
+package m202203.d13;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_1904_dp_실버3_01타일_20220313 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
