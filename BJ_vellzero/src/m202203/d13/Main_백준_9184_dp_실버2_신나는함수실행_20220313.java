@@ -1,6 +1,7 @@
+package m202203.d13;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_9184_dp_실버2_신나는함수실행_20220313 {
 
 	/*
 	 * 함수 w에서 a, b, c 중 20이 넘어가게 되면 w(20, 20, 20)을 호출하고, 0 이하일 경우는 1을 반환하기 때문에 각 배열의
