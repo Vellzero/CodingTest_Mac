@@ -1,6 +1,7 @@
+package m202203.d13;
 import java.util.Scanner;
 
-public class Main {
+public class Main_백준_1003_DP_실버3_피보나치함수_재귀로풀기_20220313 {
 
 	static int num0 = 0;
 	static int num1 = 0;
